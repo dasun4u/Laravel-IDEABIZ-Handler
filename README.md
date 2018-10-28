@@ -18,10 +18,15 @@ Laravel IDEABIZ Handler is a laravel plugin to handle REST API request for [IDEA
 composer require dasun4u/laravel-ideabiz-handler
 ```
 
-2) Optionally, you can import config file by running this command in your terminal/cmd:
+2) You can import config file and sample token file by running this command in your terminal/cmd:
 ```
 php artisan vendor:publish --provider="Dasun4u\LaravelIDEABIZHandler\RestAPIProvider"
 ```
+
+3) Then set the configurations in **ideabiz.php** file.
+
+4) For the first time, token generate using **'grant_type' => 'password'** or manualy.
+Verify that **token.json** file has the valid access token and refresh token
 
 It has following functions:
 * Generate access token
