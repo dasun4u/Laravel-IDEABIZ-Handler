@@ -9,7 +9,7 @@
             "email": "dpdasun@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "v1.0",
     "require": {
         "guzzlehttp/guzzle": "6.3.3"
     },
