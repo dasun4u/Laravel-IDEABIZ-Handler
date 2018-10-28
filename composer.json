@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Dasun4u\\LaravelIDEABIZHandler"
+                "Dasun4u\\LaravelIDEABIZHandler\\RestAPIProvider"
             ],
             "aliases": {
                 "IDEABIZ": "Dasun4u\\LaravelIDEABIZHandler\\Facades\\IDEABIZFacade"
