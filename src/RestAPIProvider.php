@@ -5,8 +5,7 @@ namespace Dasun4u\LaravelIDEABIZHandler;
 use Illuminate\Support\ServiceProvider;
 
 /**
- * Class RestAPIProvider
- * @package Dasun4u\LaravelIDEABIZHandler
+ * Class RestAPIProvider.
  */
 class RestAPIProvider extends ServiceProvider
 {
@@ -23,10 +22,10 @@ class RestAPIProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../config/ideabiz.php' => config_path('ideabiz.php'),
+            __DIR__.'/../config/ideabiz.php' => config_path('ideabiz.php'),
         ]);
         $this->publishes([
-            __DIR__ . '/../token.json' => storage_path('logs/ideabiz/token.json'),
+            __DIR__.'/../token.json' => storage_path('logs/ideabiz/token.json'),
         ]);
     }
 
