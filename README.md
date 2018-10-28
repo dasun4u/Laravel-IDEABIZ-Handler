@@ -10,7 +10,7 @@ Laravel IDEABIZ Handler is a laravel plugin to handle REST API request for [IDEA
 
 1) Install the package by running this command in your terminal/cmd:
 ```
-composer require dasun4u/Laravel-IDEABIZ-Handler
+composer require dasun4u/laravel-ideabiz-handler
 ```
 
 2) Optionally, you can import config file by running this command in your terminal/cmd:
