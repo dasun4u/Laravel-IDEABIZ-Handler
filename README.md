@@ -1,5 +1,5 @@
 # Laravel IDEABIZ Handler (Laravel 5.5+)
-Laravel IDEABIZ Handler is a laravel plugin to handle REST API request for [IDEABIZ] APIs(http://www.ideamart.lk/ideaBiz.html) 
+Laravel IDEABIZ Handler is a laravel plugin to handle REST API request for [IDEABIZ](http://www.ideamart.lk/ideaBiz.html) APIs 
 
 ## Requirements
 
