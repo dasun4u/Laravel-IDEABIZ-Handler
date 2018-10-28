@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: Dasun Dissanayake
  * Date: 2018-10-27
- * Time: 11:49 PM
+ * Time: 11:49 PM.
  */
 
 return [
@@ -43,18 +43,18 @@ return [
     |
     */
     'production' => [
-        'base_url' => 'https://ideabiz.lk',
-        'grant_type' => 'refresh_token',
-        'scope' => 'PRODUCTION',
-        'consumer_key' => env('IDEABIZ_PRODUCTION_CONSUMER_KEY', ''),
+        'base_url'        => 'https://ideabiz.lk',
+        'grant_type'      => 'refresh_token',
+        'scope'           => 'PRODUCTION',
+        'consumer_key'    => env('IDEABIZ_PRODUCTION_CONSUMER_KEY', ''),
         'consumer_secret' => env('IDEABIZ_PRODUCTION_CONSUMER_SECRET', ''),
     ],
 
     'staging' => [
-        'base_url' => 'https://ideabiz.lk',
-        'grant_type' => 'refresh_token',
-        'scope' => 'SANDBOX',
-        'consumer_key' => env('IDEABIZ_SANDBOX_CONSUMER_KEY', ''),
+        'base_url'        => 'https://ideabiz.lk',
+        'grant_type'      => 'refresh_token',
+        'scope'           => 'SANDBOX',
+        'consumer_key'    => env('IDEABIZ_SANDBOX_CONSUMER_KEY', ''),
         'consumer_secret' => env('IDEABIZ_SANDBOX_CONSUMER_SECRET', ''),
     ],
 
