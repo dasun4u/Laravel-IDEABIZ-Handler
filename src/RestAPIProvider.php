@@ -41,7 +41,7 @@ class RestAPIProvider extends ServiceProvider
         $this->app->bind('ideabiz', function () {
             return new IDEABIZ();
         });
-        
+
         $this->mergeConfigFrom(
             __DIR__.'/../config/ideabiz.php',
             'ideabiz'
