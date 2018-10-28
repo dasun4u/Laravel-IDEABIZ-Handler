@@ -1,7 +1,6 @@
 {
     "name": "dasun4u/laravel-ideabiz-handler",
     "description": "Laravel package for IDEABIZ REST API handling",
-    "type": "composer-plugin",
     "license": "MIT",
     "authors": [
         {
@@ -9,8 +8,9 @@
             "email": "dpdasun@gmail.com"
         }
     ],
-    "minimum-stability": "v1.0",
+    "minimum-stability": "dev",
     "require": {
+        "php": ">=5.6.*"
         "guzzlehttp/guzzle": "6.3.3"
     },
     "autoload": {
