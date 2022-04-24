@@ -3,13 +3,13 @@
 [![License](https://poser.pugx.org/dasun4u/laravel-ideabiz-handler/license)](https://packagist.org/packages/dasun4u/laravel-ideabiz-handler)
 [![StyleCI](https://github.styleci.io/repos/126970369/shield?branch=master)](https://github.styleci.io/repos/126970369)
 
-# Laravel IDEABIZ Handler (Laravel 6.0+)
+# Laravel IDEABIZ Handler (Laravel 8.0+)
 Laravel IDEABIZ Handler is a laravel plugin to handle REST API request for [IDEABIZ](http://www.ideamart.lk/ideaBiz.html) APIs 
 
 ## Requirements
 
 * PHP 7.0+
-* Laravel 6.0+
+* Laravel 8.0+
 
 ## Installation
 
