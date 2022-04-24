@@ -57,7 +57,7 @@ class ConfigHelper
     public $password;
 
     /**
-     * @var boolean
+     * @var bool
      */
     public $log_enable;
 
@@ -67,7 +67,7 @@ class ConfigHelper
     public $log_path;
 
     /**
-     * @var boolean
+     * @var bool
      */
     public $log_request_headers;
 
